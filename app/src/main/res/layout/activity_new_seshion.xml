@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewSeshion">
+
+
+    <EditText
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:id="@+id/seshionnametextview"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:hint="Seshion Name" />
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:id="@+id/latitudetoplefttextview"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/seshionnametextview"
+        android:layout_marginTop="15dp"
+        android:hint="Latitude - Top Left" />
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:id="@+id/longitudetoplefttextview"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/latitudetoplefttextview"
+        android:layout_marginTop="15dp"
+        android:hint="Longitude - Top Left"/>
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:id="@+id/latitudebottomrighttextview"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/longitudetoplefttextview"
+        android:layout_marginTop="15dp"
+        android:hint="Latitude - Bottom Right"/>
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:id="@+id/longitudebottomrighttextview"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/latitudebottomrighttextview"
+        android:layout_marginTop="15dp"
+        android:hint="Longitude - Bottom Right" />
+    <EditText
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:id="@+id/descriptiontextview"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/longitudebottomrighttextview"
+        android:hint="Seshion description" />
+    <CheckBox
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:id="@+id/privacycheckbox"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/descriptiontextview"
+        android:layout_marginTop="15dp"
+        android:hint="Keep this Seshion Private?" />
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:id="@+id/createseshionbutton"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/privacycheckbox"
+        android:layout_marginTop="15dp"
+        android:hint="Create Sesh!" />
+
+
+
+</RelativeLayout>

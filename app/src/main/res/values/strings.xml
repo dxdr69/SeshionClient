@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SeshionClient</string>
+    <string name="title_activity_main_tabbed_dashboard">MainTabbedDashboard</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_seshion_dashboard">SeshionDashboard</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
