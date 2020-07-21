@@ -11,6 +11,7 @@ users can also be invited to or invite others to events, add friends, and view c
 
 ## Getting Started
 
+[The Android .apk can be downloaded here](https://github.com/dxdr69/SeshionClient/releases/tag/v1.0)
 
 ## Built With
 
